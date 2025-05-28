@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume | Bryce Alastair Balbuena</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header id="home" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="logo">Bryce Alastair Balbuena</div>
+      <button id="mobile-menu" class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" tabindex="0">About</a></li>
+        <li><a href="#experience" tabindex="0">Experience</a></li>
+        <li><a href="#education" tabindex="0">Education</a></li>
+        <li><a href="#skills" tabindex="0">Skills</a></li>
+        <li><a href="#projects" tabindex="0">Projects</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="intro">
+      <img src="bryce.png" alt="Portrait photo of Bryce Alastair Balbuena" class="profile-pic" />
+      <h1>Bryce Alastair Balbuena</h1>
+      <h2>Software Engineer | Web Developer</h2>
+      <p>Driven, detail-oriented developer with a passion for building impactful software.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" tabindex="-1">
+      <h2>About Me</h2>
+      <p>I’m an upcoming 3rd year IT student focused on web development and solving real-world problems with code.</p>
+      <ul>
+        <li>Strong communicator & team player</li>
+        <li>Fast learner with critical thinking skills</li>
+        <li>Curious, proactive, and detail-oriented</li>
+      </ul>
+    </section>
+
+    <section id="experience" tabindex="-1">
+      <h2>Experience</h2>
+      <article>
+        <h3>Oxord Intern – Oxord</h3>
+        <p><em>Roxas City, Capiz | February 2023 – May 2024</em></p>
+        <ul>
+          <li>Developed responsive UI with React and Tailwind CSS.</li>
+          <li>Worked cross-functionally with designers and backend developers.</li>
+          <li>Enhanced site performance and accessibility.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education" tabindex="-1">
+      <h2>Education</h2>
+      <article>
+        <h3>Bachelor of Science in Information</h3>
+        <p>XYZ Colegio De la Purisima Concepcion</p>
+      </article>
+    </section>
+
+    <section id="skills" tabindex="-1">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-div">
+          <h4>Programming Languages</h4>
+          <p>JavaScript, Python, Java, C++</p>
+        </div>
+        <div class="skill-div">
+          <h4>Frameworks & Libraries</h4>
+          <p>React, Node.js, Express</p>
+        </div>
+        <div class="skill-div">
+          <h4>Tools & Platforms</h4>
+          <p>Git, GitHub, VS Code, Netlify</p>
+        </div>
+        <div class="skill-div">
+          <h4>Soft Skills</h4>
+          <p>Communication, Teamwork, Problem-Solving</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" tabindex="-1">
+      <h2>Projects</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio showcasing skills and projects.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <p>
+          <a href="https://yourportfolio.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a> |
+          <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </article>
+
+      <article>
+        <h3>ToDo App</h3>
+        <p>A task management app with local storage support.</p>
+        <p><strong>Tech:</strong> React, CSS</p>
+        <p>
+          <a href="https://yourtodoapp.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a> |
+          <a href="https://github.com/yourusername/todo-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" tabindex="-1">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:brycealastairb@gmail.com">brycealastairb@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/brycebalbuena" target="_blank" rel="noopener noreferrer">linkedin.com/in/brycebalbuena</a></p>
+      <p>GitHub: <a href="https://github.com/brycebalbuena" target="_blank" rel="noopener noreferrer">github.com/brycebalbuena</a></p>
+
+      <form id="contact-form" aria-label="Contact form">
+        <input type="text" name="name" placeholder="Your Name" required autocomplete="name" />
+        <input type="email" name="email" placeholder="Your Email" required autocomplete="email" />
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 Bryce Alastair Balbuena</p>
+    <p>
+      <a href="mailto:bryce@example.com">Email</a> |
+      <a href="https://github.com/brycebalbuena" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="https://linkedin.com/in/brycebalbuena" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
